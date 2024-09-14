@@ -1,7 +1,7 @@
-number_1 = 10
-number_2 = 5
-diff = number_1 - number_2
+number1 = 10
+number2 = 5
+diff = number1 - number2
 
-print(f"Addition of {number_1} and {number_2} is {number_1 + number_2}")
-print(f"Subtraction of {number_1} and {number_2} is {diff}")
-print(f"Multiplication of {number_1} and {number_2} is {number_2 * number_1}")
+print(f"Addition of {number1} and {number2} is {number1 + number2}")
+print(f"Subtraction of {number1} and {number2} is {diff}")
+print(f"Multiplication of {number1} and {number2} is {number2 * number1}")

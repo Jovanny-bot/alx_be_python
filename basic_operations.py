@@ -1,4 +1,4 @@
-number1 = 10
+number1 = 10 
 number2 = 5
 diff = number1 - number2
 

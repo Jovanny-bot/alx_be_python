@@ -1,3 +1,4 @@
+
 montly_income = float (input("Enter your montly income:"))
 montly_expenses =  float (input("Enter your total montly expenses:"))
 montly_savings= montly_income-montly_expenses

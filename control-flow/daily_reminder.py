@@ -5,12 +5,12 @@ tim= input("Is it time-bound? (yes/no):")
 
 match priority:
   case "high":
-    match tim:
-      case "yes":
+      if tim == "yes":
         print(f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!")
-      case "no":
+      elif tim == "no":
         print(f"Reminder: '{task}' is a {priority} priority task. Consider completing it when you have free time.")
-    
+        
+      
     
 
 

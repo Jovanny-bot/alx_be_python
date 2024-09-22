@@ -1,4 +1,4 @@
-Temperature = 35
+Temperature = 3
 if Temperature > 30:
   print(" it's warm")
   print(" you gonna die")

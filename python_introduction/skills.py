@@ -1,10 +1,8 @@
-Temperature = 3
-if Temperature > 30:
-  print(" it's warm")
-  print(" you gonna die")
-  print(" so bad for you")
-elif Temperature > 20:
-  print(" Drink water ")
-  print(" it's good")
-else: print(" Go to the hospital")    
+secret_number = 7
+guess_count = 2
+guess = 0
+while guess != secret_number:
+  guess += 1
+  guess = int(input("Guess a number between 1 and 10:"))
+print ( f"You guessed it in {guess_count}tries!")
 

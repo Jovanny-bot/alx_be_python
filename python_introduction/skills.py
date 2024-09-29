@@ -1,12 +1,24 @@
-size = int(input("Enter the size of the pattern: "))
+def print_square():
 
-row = 1
+  x = int(input("Enter the size of the pattern: "))
 
-while row <= size:
-  for i in range(size):
-    print("*", end="")
+  print(f"This is square of {x} as length")
+
+  row = 1
+
+  while row <= x:
+    for i in range(x):
+      print("*", end="")
+    else:
+      print()
+
+    row += 1
+  
   else:
     print()
 
-  row += 1
+print_square()
+print_square()
+print_square()
+
 

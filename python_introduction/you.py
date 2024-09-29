@@ -1,8 +1,11 @@
-successful = False
-for number in range (3):
-  print (" Attemp")
-  if successful:
-    print ("successful")
-    break 
-else:
-  print(" Attemped 3 times and failed")
+def hello():
+  
+  name = str(input("Enter your name: "))
+  if name:
+    print 
+    ("hello", + str{name})
+  else:
+    print(" hello world") 
+  return
+
+hello()   

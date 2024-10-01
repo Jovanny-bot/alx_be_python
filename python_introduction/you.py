@@ -1,11 +1,2 @@
-def hello():
-  
-  name = str(input("Enter your name: "))
-  if name:
-    print 
-    ("hello", + str{name})
-  else:
-    print(" hello world") 
-  return
-
-hello()   
+num1 = input("number = 5")
+num2 = input("number2 = ") 

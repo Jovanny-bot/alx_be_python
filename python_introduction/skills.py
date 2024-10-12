@@ -1,24 +1,13 @@
-def print_square():
-
-  x = int(input("Enter the size of the pattern: "))
-
-  print(f"This is square of {x} as length")
-
-  row = 1
-
-  while row <= x:
-    for i in range(x):
-      print("*", end="")
-    else:
-      print()
-
-    row += 1
+#class creation
+class student:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
   
-  else:
-    print()
 
-print_square()
-print_square()
-print_square()
+  def Description(self):
+    student1 = student("Alain", "15")
+    student2 = student("Kevin", 20)
 
-
+print(f"{student1.__name__} and {stuednt1.age}")
+print(f"{dog1.name} is a {dog.breed} he says {dog.brak}") 
